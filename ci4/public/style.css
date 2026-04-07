@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #444;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #555;
+}
+
+#wrapper {
+    display: flex;
+    min-height: 400px;
+}
+
+#main {
+    flex: 3;
+    padding: 2rem;
+    background-color: white;
+}
+
+#sidebar {
+    flex: 1;
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-left: 1px solid #ddd;
+}
+
+.widget-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.widget-box .title {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.widget-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget-box ul li {
+    margin-bottom: 0.5rem;
+}
+
+.widget-box ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.widget-box ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    clear: both;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
